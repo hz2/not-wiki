@@ -1,8 +1,8 @@
 {
 	"background_color": "#ffffff",
-	"theme_color": "#333333",
-	"name": "TODO",
-	"short_name": "TODO",
+	"theme_color": "#46a3d2",
+	"name": "not wiki",
+	"short_name": "^wiki",
 	"display": "minimal-ui",
 	"start_url": "/",
 	"icons": [

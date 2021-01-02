@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "not-wiki",
+  "description": "not-wiki",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
@@ -10,7 +10,7 @@
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "test": "run-p --race dev cy:run",
-    "pub":"vercel --prod"
+    "pub": "vercel --prod"
   },
   "dependencies": {
     "compression": "^1.7.1",
@@ -18,20 +18,20 @@
     "sirv": "^1.0.0"
   },
   "devDependencies": {
-    "npm-run-all": "^4.1.5",
-    "sapper": "^0.28.0",
-    "svelte": "^3.17.3",
     "@babel/core": "^7.0.0",
     "@babel/plugin-syntax-dynamic-import": "^7.0.0",
-    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.12.10",
     "@babel/preset-env": "^7.0.0",
-    "@babel/runtime": "^7.0.0",
-    "@rollup/plugin-babel": "^5.0.0",
+    "@babel/runtime": "^7.12.5",
+    "@rollup/plugin-babel": "^5.2.2",
     "@rollup/plugin-commonjs": "^14.0.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
-    "@rollup/plugin-replace": "^2.2.0",
-    "rollup": "^2.3.4",
-    "rollup-plugin-svelte": "^6.0.0",
-    "rollup-plugin-terser": "^7.0.0"
+    "@rollup/plugin-replace": "^2.3.4",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^2.35.1",
+    "rollup-plugin-svelte": "^6.1.1",
+    "rollup-plugin-terser": "^7.0.0",
+    "sapper": "^0.28.10",
+    "svelte": "^3.31.1"
   }
 }
